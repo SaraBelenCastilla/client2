@@ -1,0 +1,100 @@
+
+
+
+body{
+    max-width: 100%;
+    margin: 0;
+    background-color: rgb(233, 223, 207);
+}
+.seccion{
+max-width: 100%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    position: relative;
+    gap: 5%;
+}
+.seccion__encabezado{
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seccion__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5%;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+}
+.seccion__tarjeta{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    gap: 5%;
+    margin-top: 5%;
+    padding: 5%;
+    /* position: absolute;
+    left: 35%;
+    top: 60%;  */
+    
+}
+mover{
+    background-color: white;
+    width: 20%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5%;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    
+    
+}
+.seccion__titulo{
+    font-size: 1.2em;
+}
+.seccion__usuario{
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.usuario__icono{
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5em;
+}
+.usuario__nombre{
+    display: flex;
+    align-items: center;
+    margin-left: 1.25rem;
+}
+.usuario__mensaje{
+    font-size: 1.2em;
+}
+.boton{
+ position: absolute;
+ top: 50rem;
+ left: 48%;
+ width: 6.25rem;
+ height: 3.125rem;
+ border: none;
+ background-color: white;
+}
